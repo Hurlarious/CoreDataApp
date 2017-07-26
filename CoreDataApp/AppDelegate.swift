@@ -91,3 +91,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+// MARK: - CUSTOM Variables in AppDelegate for EZ-AXS
+
+
+let ad = UIApplication.shared.delegate as! AppDelegate
+let context = ad.persistentContainer.viewContext
